@@ -6,3 +6,10 @@ def is_palindrome(value: str) -> bool:
     :return: A boolean
     """
     pass  # remove pass statement and implement me
+    
+    if (value == value[::-1]):
+        return True 
+    else:
+        return False
+#print(is_palindrome("dad"))
+        
